@@ -1,0 +1,13 @@
+1. Membuat environtment yang sama
+
+conda create --name <envName> --file requirements.txt 
+
+2. Aktivasi environtment 
+conda activate <envName>
+
+3. Kode sudah bisa dieksekusi
+
+Note: <envName> --> ganti dengan nama env kamu. ex --> envTBI
+
+#Hapi_coding!!!
+======== jangan lupa kasih bintang =========
