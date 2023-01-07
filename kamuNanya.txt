@@ -9,5 +9,15 @@ conda activate <envName>
 
 Note: <envName> --> ganti dengan nama env kamu. ex --> envTBI
 
+=============== alur ===============
+1. Untuk melakukan crawling, script terdapat pada folder dataset.
+ubah nilai parameter sesuai keinginan.
+proses crawling dara akan menghasilkan 2 file. disarankan untuk menggunakan file yang labeled.
+jika ingin melakukan labeling ulang dengan topik yang sama maka 2 file tersebut wajib dihapus.
+
+2. untuk melakukan proses naive bayes, buka script yang ada pada root project.
+ubah variabel DATAFRAME pada markah 'konfigurasi' dengan path file hasil crawling labeled tadi.
+kemudian, pada proses chi-square. perhatikan pada nilai k. nilai k dapat disesuaikan sesukanya (asal tidak melebihi jumlah feature).
+
 #Hapi_coding!!!
-======== jangan lupa kasih bintang =========
+======== jangan lupa kasih bintang --> https://github.com/Sekhudinpbg3 =========
